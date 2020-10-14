@@ -20,7 +20,7 @@ class Test_Blog:
         assert 'ooooooooba' in successTitle
         print(successTitle)
 
-        self.driver.find_element_by_name('name').send_keys('Yago')
+        self.driver.find_element_by_name('name').send_keys('Gomes')
         self.driver.find_element_by_name('email').send_keys("test@selenium.com")
         self.driver.find_element_by_name('body').send_keys('Testanto selenium')
         self.driver.find_element_by_name('submitComment').click()
