@@ -93,4 +93,6 @@ class TestBlog:
 
     driver.find_element_by_name('submitPassword').click()
 
+    driver.close()
+
     
