@@ -6,7 +6,7 @@ from time import sleep
 class TestBlog:
 
     driver = webdriver.Chrome(executable_path='C://Users//Yago//Desktop//chromedriver.exe')
-    driver.get('http://localhost:5000')
+    driver.get('http://localhost:5001')
 
     mainTitle = driver.find_element_by_tag_name('h3').text
 
